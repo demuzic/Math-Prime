@@ -3,4 +3,5 @@
 bool prim(int num);
 int primC(int num);
 int primV(int num);
+int primF(int num);
 #endif
