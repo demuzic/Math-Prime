@@ -41,3 +41,16 @@ int primV(int num)
 		if (prim(i)) primNum++;
 	}
 }
+
+int primF(int num)
+{
+	SetConsoleTitleA("MP - loading");
+	int primNum = 0;
+	int couter = 0;
+	for (int i = 1; i <= i + 2; i++)
+	{
+		if (couter == num) return primNum - 1;
+		couter++;
+		if (prim(i)) primNum++;
+	}
+}
